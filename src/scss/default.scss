@@ -1,0 +1,23 @@
+/************************************************************************
+[Master Stylesheet]
+Project:        Templates
+Version:        1.0
+Author:         Silkstream
+Build Date:     24/05/2017 [Start]
+************************************************************************/
+
+@import url('//fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+
+
+
+/** Layout **/
+
+@import "layout/header";
+@import "layout/main";
+@import "layout/home";
+@import "layout/footer";
+
+/** Base **/
+@import "base/base";
+

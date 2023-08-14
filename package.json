@@ -1,0 +1,17 @@
+{
+  "docker-dev-container-prefix": "go_group_holdings_crm_",
+  "scripts": {
+    "docker-dev-start": "node ./dev/npm/docker-dev-up.js",
+    "docker-dev-stop": "node ./dev/npm/docker-dev-down.js",
+    "docker-dev-setup": "node ./dev/npm/docker-dev-setup.js",
+    "docker-dev-populate": "node ./dev/npm/docker-dev-populate.js",
+    "docker-dev-drop": "node ./dev/npm/docker-dev-drop.js"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-sass": "^3.1.0",
+    "sass": "^1.32.12"
+  }
+}
