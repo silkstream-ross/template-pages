@@ -1,4 +1,49 @@
 .main-page-content{
+
+  .main-banner {
+    position: relative;
+
+    .banner-image {
+      width: 100%;
+    }
+
+    .banner-content {
+      position: absolute;
+      z-index: 9999;
+      top: 50%;
+      text-align: center;
+      width: 100%;
+      transform: translate(0, -50%);
+
+      .banner-heading{
+        h2{
+          font-size: 3em;
+          font-family: 'Playfair Display';
+          font-weight: 100;
+
+          span{
+            color: goldenrod;
+          }
+        }
+      }
+
+      .banner-link{
+        background-color: transparent;
+        color: white;
+        font-size: 1.25em;
+        padding: 12px;
+        display: inline-block;
+        margin: 0 24px;
+        cursor: pointer;
+        border-radius: 30px;
+        border: solid 3px white;
+        width: 13%;
+        font-family: 'Sen';
+      }
+
+    }
+  }
+
   .section-heading{
     color: black;
     text-transform: uppercase;
@@ -9,22 +54,133 @@
   }
 
   .main-page-featured-events{
-    .featured-events-heading{
-      margin-top: 3.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+
+    img{
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    .featured-events-heading, .featured-events-end{
+      margin-top: 1.5em;
+      margin-bottom: 1.5em;
       text-align: center;
       font-size: 20px;
 
     }
 
-    .featured-events-item{
-      img{
-        position: absolute;
-      }
-      .featured-event-details{
-        position: absolute;
-      }
+    .view-events-button{
+
+        background-color: goldenrod;
+        color: white;
+        font-size: 1em;
+        padding: 12px;
+        display: inline-block;
+        margin: 0 24px;
+        cursor: pointer;
+        border-radius: 30px;
+        border: solid 3px white;
+        width: 17%;
+        font-family: 'Sen';
+
     }
 
+    .featured-events-container{
+      display: grid;
+      grid-template-columns: 31% 31% 31%;
+      grid-gap: 3.5%;
+    }
+
+    .featured-events-row{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-items: center;
+    }
+
+    .featured-events-row-primary{
+      display: grid;
+      grid-template-columns: 1fr 2fr ;
+      justify-items: center;
+    }
+
+    .featured-events-item, .featured-events-item-primary{
+      display: flex;
+      align-items: flex-end;
+      background-image: linear-gradient(0deg, #020B20, #020B20, transparent, transparent);
+      border-radius: 15px;
+
+      .featured-event-img{
+        position: relative;
+        max-width: 100%;
+        max-height: 100%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+        z-index: -1;
+
+      }
+
+      .featured-event-details{
+        position: absolute;
+        padding-left: 1%;
+
+        .featured-event-category{
+          color: goldenrod;
+          text-transform: uppercase;
+        }
+
+        .featured-event-title{
+          margin-top: 0.2em;
+          margin-bottom: 0.2em;
+          font-weight: 100;
+          font-size: 1.5em;
+        }
+
+        .featured-event-location{
+          margin-top: 0.2em;
+          margin-bottom: 0.2em;
+        }
+
+        .featured-event-date{
+          margin-top: 0.2em;
+        }
+
+
+      }
+
+    }
+
+    .featured-events-item-primary{
+      grid-row: 1;
+      grid-column-start: 2;
+      grid-column-end: 4;
+    }
+
+  }
+
+  .main-page-ambassador{
+    background-color: #020B20;
+    padding: 3%;
+
+    .ambassador-content{
+      display: flex;
+
+      .ambassador-image{
+        width: 50%;
+      }
+
+      .ambassador-text{
+        width: 50%;
+        h1{
+          text-transform: uppercase;
+          color: goldenrod;
+          font-weight: 100;
+        }
+      }
+
+    }
   }
 
 }

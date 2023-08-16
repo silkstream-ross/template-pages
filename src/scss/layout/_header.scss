@@ -1,5 +1,4 @@
 header {
-height: 47em;
 
   .main-nav {
     background-image: linear-gradient(180deg, #020B20, #020B20, transparent);
@@ -7,6 +6,8 @@ height: 47em;
     color: white;
     height: 17em;
     z-index: 999;
+    position: absolute;
+    width: 100%;
 
     .main-nav-links {
       text-align: center;
@@ -35,23 +36,6 @@ height: 47em;
           margin-right: 10%;
         }
 
-      }
-    }
-
-    .main-nav-banner {
-      z-index: -1;
-      position: relative;
-
-      .banner-image {
-        width: 100%;
-
-      }
-
-      .banner-content {
-        position: absolute;
-        z-index: 9999;
-        top: 0;
-        left: 0;
       }
     }
   }
