@@ -88,8 +88,8 @@
 
     .featured-events-container{
       display: grid;
-      grid-template-columns: 31% 31% 31%;
-      grid-gap: 3.5%;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 2rem;
     }
 
     .featured-events-row{
