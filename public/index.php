@@ -88,9 +88,8 @@ require_once (__DIR__.'/includes/header.php');
     </div>
     <div class="main-page-ambassador">
         <div class="ambassador-content">
-            <div class="ambassador-image">
 
-            </div>
+                <img  src="/images/Mark & Chris.png" width="500">
             <div class="ambassador-text">
                 <h1 class="ambassador-heading">Experience it all with go privilege</h1>
                 <p>

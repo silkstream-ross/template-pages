@@ -22,7 +22,7 @@
           font-weight: 100;
 
           span{
-            color: goldenrod;
+            color: #BBA870;
           }
         }
       }
@@ -50,7 +50,7 @@
     font-weight: 100;
   }
   .section-subheading{
-    color: goldenrod;
+    color: #BBA870;
   }
 
   .main-page-featured-events{
@@ -72,7 +72,7 @@
 
     .view-events-button{
 
-        background-color: goldenrod;
+        background-color: #BBA870;
         color: white;
         font-size: 1em;
         padding: 12px;
@@ -127,7 +127,7 @@
         padding-left: 1%;
 
         .featured-event-category{
-          color: goldenrod;
+          color: #BBA870;
           text-transform: uppercase;
         }
 
@@ -162,10 +162,13 @@
 
   .main-page-ambassador{
     background-color: #020B20;
-    padding: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
 
     .ambassador-content{
       display: flex;
+      justify-content: space-evenly;
 
       .ambassador-image{
         width: 50%;
@@ -175,8 +178,22 @@
         width: 50%;
         h1{
           text-transform: uppercase;
-          color: goldenrod;
+          color: #BBA870;
           font-weight: 100;
+          margin-bottom: 1em;
+        }
+        .p{
+          font-size: 1.2em;
+          margin-bottom: 6%;
+        }
+        .ambassador-name{
+          font-size: 1.5em;
+          margin-bottom: 0.5em;
+        }
+        .ambassador-final{
+          font-size: 1.2em;
+          color: #BBA870;
+          margin: 0;
         }
       }
 
