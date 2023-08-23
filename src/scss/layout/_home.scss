@@ -44,13 +44,42 @@
     }
   }
 
-  .section-heading{
-    color: black;
-    text-transform: uppercase;
-    font-weight: 100;
-  }
-  .section-subheading{
-    color: #BBA870;
+
+  .section-heading-group, .section-end{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: center;
+    font-size: 20px;
+
+    .section-heading{
+      color: black;
+      text-transform: uppercase;
+      font-weight: 100;
+      margin-bottom: 0.3em;
+    }
+    .section-subheading{
+      color: #BBA870;
+      margin-top: 0.5em;
+    }
+
+    .section-end-btn, .section-end-btn-lng{
+
+      background-color: #BBA870;
+      color: white;
+      font-size: 1em;
+      padding: 12px;
+      display: inline-block;
+      margin: 0 24px;
+      cursor: pointer;
+      border-radius: 30px;
+      border: solid 3px white;
+      width: 17%;
+      font-family: 'Sen';
+
+    }
+    .section-end-btn-lng{
+      width: 23%;
+    }
   }
 
   .main-page-featured-events{
@@ -62,29 +91,6 @@
       max-height: 100%;
     }
 
-    .featured-events-heading, .featured-events-end{
-      margin-top: 1.5em;
-      margin-bottom: 1.5em;
-      text-align: center;
-      font-size: 20px;
-
-    }
-
-    .view-events-button{
-
-        background-color: #BBA870;
-        color: white;
-        font-size: 1em;
-        padding: 12px;
-        display: inline-block;
-        margin: 0 24px;
-        cursor: pointer;
-        border-radius: 30px;
-        border: solid 3px white;
-        width: 17%;
-        font-family: 'Sen';
-
-    }
 
     .featured-events-container{
       display: grid;
@@ -182,21 +188,83 @@
           font-weight: 100;
           margin-bottom: 1em;
         }
-        .p{
+        .ambassador-body{
           font-size: 1.2em;
           margin-bottom: 6%;
         }
-        .ambassador-name{
-          font-size: 1.5em;
-          margin-bottom: 0.5em;
-        }
-        .ambassador-final{
-          font-size: 1.2em;
-          color: #BBA870;
-          margin: 0;
+        .ambassador-end {
+          .ambassador-name {
+            font-size: 1.5em;
+            margin-bottom: 0.5em;
+          }
+
+          .ambassador-final {
+            font-size: 1.2em;
+            color: #BBA870;
+            margin: 0;
+          }
         }
       }
 
+    }
+  }
+
+  .main-page-travel-services{
+    .travel-services-slider{
+
+      .travel-services-slider-items{
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+        align-items: center;
+
+        .travel-services-slider-item{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: rgba(02, 11, 32, 0.35);
+          border-radius: 15px;
+
+          .slider-item-title{
+            position: absolute;
+            font-size: 2em;
+            width: 11%;
+            text-align: center;
+          }
+
+          img{
+            border-radius: 15px;
+            z-index: -1;
+          }
+        }
+
+      }
+
+      .travel-services-slider-buttons{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+
+    }
+  }
+
+  .main-page-partners{
+    .partners-title{
+      color: black;
+      font-size: 2em;
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 2.1em;
+      margin-bottom: 2.1em;
+    }
+
+    .partners-text{
+      color: black;
+      text-align: center;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      font-size: 1.1rem;
     }
   }
 

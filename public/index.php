@@ -31,7 +31,7 @@ require_once (__DIR__.'/includes/header.php');
         </div>
     </div>
     <div class="main-page-featured-events">
-        <div class="featured-events-heading">
+        <div class="section-heading-group">
             <h2 class="section-heading">FEATURED EVENTS</h2>
             <p class="section-subheading">VIP Access to Sold Out Events</p>
         </div>
@@ -82,17 +82,16 @@ require_once (__DIR__.'/includes/header.php');
                 </div>
             </div>
         </div>
-        <div class="featured-events-end">
-            <button class="view-events-button">View All Events</button>
+        <div class="section-end">
+            <button class="section-end-btn">View All Events</button>
         </div>
     </div>
     <div class="main-page-ambassador">
         <div class="ambassador-content">
-
-                <img  src="/images/Mark & Chris.png" width="500">
+            <img  src="/images/Mark & Chris.png" width="500">
             <div class="ambassador-text">
                 <h1 class="ambassador-heading">Experience it all with go privilege</h1>
-                <p>
+                <p class="ambassador-body">
                     Our brand ambassador Chris Robshaw with Go Privilege managing director
                     Mark Hooper at the 2023 Masters Golf.<br>
                     <br>
@@ -104,20 +103,55 @@ require_once (__DIR__.'/includes/header.php');
                     calendar of core sporting, entertainment and lifestyle events and experiences.”
                 </p>
                 <div class="ambassador-end">
-                    <p>Chris Robshaw</p>
-                    <p>Go Privilege Brand Ambassador</p>
+                    <p class="ambassador-name">Chris Robshaw</p>
+                    <p class="ambassador-final">Go Privilege Brand Ambassador</p>
                 </div>
             </div>
         </div>
     </div>
     <div class="main-page-travel-services">
-
+        <div class="section-heading-group">
+            <h2 class="section-heading">Our Travel Services</h2>
+            <p class="section-subheading">Get inspired by our luxury travel features</p>
+        </div>
+        <div class="travel-services-slider">
+            <div class="travel-services-slider-buttons">
+                <a href="#" class="travel-slider-left-button"><img src="images/arrowLeft.svg" width="70" height="70"></a>
+                <a href="#" class="travel-slider-right-button"><img src="images/arrowRight.svg" width="70" height="70"></a>
+            </div>
+            <div class="travel-services-slider-items">
+                <div class="travel-services-slider-item">
+                    <p class="slider-item-title">Corporate Flights</p>
+                    <img src="images/travel/Corporate%20Flights.jpg" width="375">
+                </div>
+                <div class="travel-services-slider-item">
+                    <p class="slider-item-title">Private Villas</p>
+                    <img src="images/travel/Private%20Villas.jpg" width="375">
+                </div>
+                <div class="travel-services-slider-item">
+                    <p class="slider-item-title">Private Yachts</p>
+                    <img src="images/travel/Private%20Yacht%20Charter.jpg" width="375">
+                </div>
+            </div>
+        </div>
+        <div class="section-end">
+            <button class="section-end-btn-lng">View All Our Travel Services</button>
+        </div>
     </div>
     <div class="main-page-social-posts">
 
     </div>
     <div class="main-page-partners">
-
+        <h2 class="partners-title">Go Privilege, the UK's leading concierge company</h2>
+        <p class="partners-text">
+            Founded by PGA Golf Professional Mark Hooper, Go Privilege offers a wide range of sports hospitality,
+            tickets, and travel packages to all major sporting events across the World.
+            Whether you are looking for corporate hospitality to entertain clients or need tickets for a social occasion
+            Go Privilege has a wide variety of options to suit all levels of budget and requirements.<br><br>
+            We provide an unparalleled level of service throughout every hospitality booking and are extremely proud of our customer reviews.
+            Choosing the right sports hospitality suite or venue can prove a difficult task so please feel free to get in touch
+            and speak to one of our sales team for help and advice.
+        </p>
     </div>
 </div>
 <?php
