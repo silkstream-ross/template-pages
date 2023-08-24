@@ -1,6 +1,6 @@
 .main-page-content{
 
-  .main-banner {
+  .l-main-banner {
     position: relative;
 
     .banner-image {
@@ -82,7 +82,7 @@
     }
   }
 
-  .main-page-featured-events{
+  .b-featured-events{
     margin-left: 2em;
     margin-right: 2em;
 
@@ -166,7 +166,7 @@
 
   }
 
-  .main-page-ambassador{
+  .b-ambassador{
     background-color: #020B20;
     padding-left: 3%;
     padding-right: 3%;
@@ -209,7 +209,7 @@
     }
   }
 
-  .main-page-travel-services{
+  .b-travel-services{
     .travel-services-slider{
 
       .travel-services-slider-items{
@@ -249,14 +249,17 @@
     }
   }
 
-  .main-page-partners{
+  .b-partners{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+
     .partners-title{
       color: black;
       font-size: 2em;
       text-align: center;
       text-transform: uppercase;
-      margin-top: 2.1em;
-      margin-bottom: 2.1em;
+      margin-bottom: 1.7em;
     }
 
     .partners-text{

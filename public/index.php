@@ -22,7 +22,7 @@
 require_once (__DIR__.'/includes/header.php');
 ?>
 <div class="main-page-content">
-    <div class="main-banner">
+    <div class="l-main-banner">
         <img class="banner-image" src="/images/Safari Shot cropped.jpg">
         <div class="banner-content">
             <div class="banner-heading"><h2><span>VIP</span> Luxury Experiences</h2></div>
@@ -30,7 +30,7 @@ require_once (__DIR__.'/includes/header.php');
             <div class="banner-switch-links"><a class="banner-switch-link"></a><a class="banner-switch-link"></a></div>
         </div>
     </div>
-    <div class="main-page-featured-events">
+    <div class="b-featured-events">
         <div class="section-heading-group">
             <h2 class="section-heading">FEATURED EVENTS</h2>
             <p class="section-subheading">VIP Access to Sold Out Events</p>
@@ -86,7 +86,7 @@ require_once (__DIR__.'/includes/header.php');
             <button class="section-end-btn">View All Events</button>
         </div>
     </div>
-    <div class="main-page-ambassador">
+    <div class="b-ambassador">
         <div class="ambassador-content">
             <img  src="/images/Mark & Chris.png" width="500">
             <div class="ambassador-text">
@@ -109,7 +109,7 @@ require_once (__DIR__.'/includes/header.php');
             </div>
         </div>
     </div>
-    <div class="main-page-travel-services">
+    <div class="b-travel-services">
         <div class="section-heading-group">
             <h2 class="section-heading">Our Travel Services</h2>
             <p class="section-subheading">Get inspired by our luxury travel features</p>
@@ -138,10 +138,10 @@ require_once (__DIR__.'/includes/header.php');
             <button class="section-end-btn-lng">View All Our Travel Services</button>
         </div>
     </div>
-    <div class="main-page-social-posts">
+    <div class="b-social-posts">
 
     </div>
-    <div class="main-page-partners">
+    <div class="b-partners">
         <h2 class="partners-title">Go Privilege, the UK's leading concierge company</h2>
         <p class="partners-text">
             Founded by PGA Golf Professional Mark Hooper, Go Privilege offers a wide range of sports hospitality,
@@ -152,10 +152,19 @@ require_once (__DIR__.'/includes/header.php');
             Choosing the right sports hospitality suite or venue can prove a difficult task so please feel free to get in touch
             and speak to one of our sales team for help and advice.
         </p>
+        <div class="section-heading-group">
+            <p class="section-subheading">Our Official Partners</p>
+        </div>
+        <div class="partners-slider">
+
+        </div>
+        <div class="section-end">
+            <button class="section-end-btn">About Us</button>
+        </div>
     </div>
 </div>
 <?php
-//require_once (__DIR__.'/includes/footer.php');
+require_once (__DIR__.'/includes/footer.php');
 ?>
 </body>
 </html>

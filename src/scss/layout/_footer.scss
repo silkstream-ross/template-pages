@@ -1,0 +1,55 @@
+footer{
+  margin: 2em;
+  background: #020B20;
+  border-radius: 15px;
+  padding: 2em;
+  font-size: 1.25em;
+
+  .footer-start{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2em;
+
+    .footer-links{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      width: 48%;
+    }
+
+    .newsletter-sign-up{
+      width: 48%;
+      p{
+        margin-top: 0;
+      }
+
+      .newsletter-sign-up-form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        font-size: 0.75em;
+
+        input{
+          padding: 0.75em;
+          padding-right: 1.25em;
+          padding-left: 1.25em;
+          border-radius: 20px;
+          font-family: 'Sen';
+        }
+
+        button{
+          background-color: #BBA870;
+          color: white;
+          font-size: 1em;
+          cursor: pointer;
+          border-radius: 30px;
+          padding: 0.75em;
+          font-family: 'Sen';
+        }
+
+      }
+
+    }
+
+  }
+
+}
